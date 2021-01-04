@@ -4,6 +4,18 @@ body {
     padding: 0;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.banner_part {
+    background: url(../images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
 .banner_part .left_side {
     width: 50%;
     float: left;
@@ -22,4 +34,140 @@ body {
 
 .clr {
     clear: both;
+}
+
+.banner_part .left_side h2 {
+    font-size: 22px;
+    color: #222222;
+    font-weight: 500;
+    padding: 49px 0 15px;
+}
+
+.banner_part .left_side h1 {
+    font-size: 55px;
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.heighlight_text {
+    color: orange;
+}
+
+.banner_part .left_side h3 {
+    font-size: 18px;
+    padding: 5px 0 20px;
+}
+
+.banner_part .left_side h3 span {
+    border-bottom: 2px solid orange;
+}
+
+.banner_part .left_side p {
+    padding-right: 100px;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 25px;
+}
+
+.common_btn {
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background-color: orange;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+}
+
+
+/* banner part end */
+
+
+/* dream part start */
+
+.dream_area {
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 60px;
+}
+
+.dream_area .left_side {
+    width: 30%;
+    float: left;
+    padding-left: 7%;
+}
+
+.dream_area .right_side {
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+}
+
+.dream_area .left_side img {
+    width: 100%;
+}
+
+.dream_area .right_side h3 {
+    font-size: 32px;
+    background: orange;
+    padding: 12px 22px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    margin: 10px 0 40px;
+}
+
+.dream_area .right_side h4 {
+    font-size: 18px;
+}
+
+.dream_area .right_side p {
+    font-size: 14px;
+    color: #222;
+    line-height: 24px;
+    margin: 10px 0 20px;
+    padding-right: 35px;
+}
+
+
+/* experience part */
+
+.developer {
+    padding-bottom: 40px;
+}
+
+.half_width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 15px;
+    padding-left: 2%;
+    padding-bottom: 120px;
+    border-left: 5px solid;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.half_width h4 {
+    font-size: 22px;
+    color: #222222;
+    padding: 20px 0;
+}
+
+.half_width h5 {
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.half_width p {
+    font-size: 14px;
+    line-height: 22px;
+    color: #444444;
+}
+
+.baby_develop {
+    border: 1px solid linear-gradient(red, green);
 }
