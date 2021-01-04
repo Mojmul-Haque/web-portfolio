@@ -3,3 +3,23 @@ body {
     margin: 0;
     padding: 0;
 }
+
+.banner_part .left_side {
+    width: 50%;
+    float: left;
+    padding-left: 10%;
+}
+
+.banner_part .right_side {
+    width: 30%;
+    float: left;
+    padding-right: 10%;
+}
+
+.banner_part .right_side img {
+    width: 100%;
+}
+
+.clr {
+    clear: both;
+}
