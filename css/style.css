@@ -59,10 +59,6 @@ body {
     padding: 5px 0 20px;
 }
 
-.banner_part .left_side h3 span {
-    border-bottom: 2px solid orange;
-}
-
 .banner_part .left_side p {
     padding-right: 100px;
     font-size: 14px;
@@ -138,6 +134,13 @@ body {
 
 .developer {
     padding-bottom: 40px;
+    background: url(../images/exp-bg.png) no-repeat left;
+}
+
+.developer h3 {
+    font-size: 32px;
+    color: rgba(34, 34, 34, 0.6);
+    font-weight: 600;
 }
 
 .half_width {
@@ -146,9 +149,10 @@ body {
     margin-left: 5%;
     margin-top: 15px;
     padding-left: 2%;
-    padding-bottom: 120px;
-    border-left: 5px solid;
+    padding-bottom: 80px;
     box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    background: white;
 }
 
 .half_width h4 {
@@ -168,6 +172,35 @@ body {
     color: #444444;
 }
 
-.baby_develop {
-    border: 1px solid linear-gradient(red, green);
+.full_stack {
+    border-left: 5px solid;
+    border-image: linear-gradient(45deg, #1ECCDA, #166FE5);
+    /* border-image: linear-gradient( red, white); */
+    border-image-slice: 1;
 }
+
+.baby_develop {
+    border-left: 5px solid;
+    border-image: linear-gradient( 45deg, orange, tomato);
+    border-image-slice: 1;
+}
+
+
+/* developer part end */
+
+
+/* footer part start */
+
+footer p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgba(34, 34, 34, 0.5)
+}
+
+
+/* developer part end */
